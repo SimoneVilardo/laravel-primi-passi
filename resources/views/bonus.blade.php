@@ -16,8 +16,8 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center fw-bold">
-                    <h1>HELLO WORLD LARAVEL!</h1> 
+                <div class="col-12">
+                    
                 </div>
             </div>
         </div>
