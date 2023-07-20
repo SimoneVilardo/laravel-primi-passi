@@ -11,6 +11,6 @@
 
     </head>
     <body>
-        
+        <h1>HELLO WORLD LARAVEL!</h1> 
     </body>
 </html>
