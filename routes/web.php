@@ -19,8 +19,8 @@ Route::get('/', function () {
 
 Route::get('/bonus', function () {
     $data =[
-        'titolo' => 'LARAVEL',
-        'descrizione' => 'FRAMEWORK',
+        'titolo' => 'Titolo : LARAVEL',
+        'descrizione' => 'Descrizione: FRAMEWORK',
         'difficolta' => 'Difficoltà: medio,alta',
     ];
 
