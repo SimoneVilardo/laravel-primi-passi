@@ -18,6 +18,12 @@ Route::get('/', function () {
 });
 
 Route::get('/bonus', function () {
-    return view('bonus');
+    $data =[
+        'titolo' => 'LARAVEL',
+        'descrizione' => 'FRAMEWORK',
+        'difficolta' => 'Difficoltà: medio,alta',
+    ];
+
+    return view('bonus', $data);
 });
 

@@ -16,8 +16,11 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    
+                <div class="col-12 text-center">
+                    <h1> {{ $titolo }} </h1>
+                    <h2> {{ $descrizione }} </h2>
+                    <h2> {{ $difficolta }} </h2>
+                    <a href="/">TORNA ALLA HOME PAGE</a>
                 </div>
             </div>
         </div>
