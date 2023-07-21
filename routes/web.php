@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $dati =[
+        'titolo' => 'HELLO WORLD LARAVEL!',
+        'content' => 'Eccoci finalmente arrivati a LARAVEL,preparati ad affrontare un nuovo mondo con conoscenze passate!'
+    ];
+    return view('home', $dati);
 });
 
 Route::get('/bonus', function () {

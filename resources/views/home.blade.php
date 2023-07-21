@@ -17,8 +17,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center fw-bold">
-                    <h1>HELLO WORLD LARAVEL!</h1> 
-                    <p class="text-danger">Eccoci finalmente arrivati a LARAVEL,preparati ad affrontare un nuovo mondo con conoscenze passate!</p>
+                    <h1>{{ $titolo }}</h1> 
+                    <p class="text-danger">{{ $content }}</p>
                     <a href="/bonus">ENTRA NEL BONUS</a>
                 </div>
             </div>
